@@ -1,5 +1,5 @@
 import heroImage from "../assets/hero.jpg";
-import SocialSidebar from "../components/SocialSidebar";
+import SocialSidebar from "../components/SocialSidebar.jsx";
 import { TypeAnimation } from "react-type-animation";
 
 export const Home = () => {
@@ -54,3 +54,5 @@ export const Home = () => {
     </>
   );
 };
+
+
