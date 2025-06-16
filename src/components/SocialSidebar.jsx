@@ -6,8 +6,8 @@ const SocialSidebar = ({ inline = false }) => {
     <div
       className={`${
         inline
-          ? "flex-col space-y-4 items-center"
-          : "flex justify-center gap-8 py-4 w-full md:fixed md:top-1/3 md:left-20 md:flex-col md:space-y-6 md:w-auto md:gap-6"
+          ? "flex flex-col items-center space-y-8"
+          : "hidden md:flex md:flex-col md:space-y-6 md:fixed md:top-1/3 md:left-20"
       }`}
     >
       {/* GitHub */}
