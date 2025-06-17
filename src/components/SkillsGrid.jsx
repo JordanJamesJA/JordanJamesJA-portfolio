@@ -94,12 +94,12 @@ const SkillsGrid = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.3 }}
-            className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-6"
+            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
           >
             {displayedSkills.map((skill, index) => (
               <div
                 key={index}
-                className="w-56 h-16 flex flex-row items-center gap-3 p-4 bg-transparent rounded-lg border-2 border-[#dfa05e] shadow-md hover:scale-105 transition-transform duration-300"
+                className="w-full h-16 flex flex-row items-center gap-3 p-4 bg-transparent rounded-lg border-2 border-[#dfa05e] shadow-md hover:scale-105 transition-transform duration-300"
               >
                 <div className="text-4xl">{skill.icon}</div>
                 <p className="text-white text-sm font-semibold">{skill.name}</p>
