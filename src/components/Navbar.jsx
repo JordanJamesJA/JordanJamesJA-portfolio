@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full bg-transparent text-white font-medium py-6 z-50">
       <div className="container mx-auto flex items-center justify-between px-4 md:px-15 relative z-50">
         {/* Brand */}
-        <NavLink to="/" className="text-xl font-bold text-orange-400 z-10">
+        <NavLink to="/" className="text-xl font-bold text-[#dfa05e] z-10">
           JordanJames
         </NavLink>
 
@@ -28,8 +28,8 @@ const Navbar = () => {
                 to={to}
                 className={({ isActive }) =>
                   isActive
-                    ? "text-white border-b-2 border-orange-400 font-semibold"
-                    : "hover:text-white border-b-2 border-transparent hover:border-orange-400 transition"
+                    ? "text-white border-b-2 border-[#dfa05e] font-semibold"
+                    : "hover:text-white border-b-2 border-transparent hover:border-[#dfa05e] transition"
                 }
               >
                 {label}
@@ -43,8 +43,8 @@ const Navbar = () => {
           to="/contact"
           className={({ isActive }) =>
             isActive
-              ? "text-white font-semibold border-b-2 border-orange-400 hidden md:block"
-              : "text-white font-semibold hover:text-orange-400 transition hidden md:block"
+              ? "text-white font-semibold border-b-2 border-[#dfa05e] hidden md:block"
+              : "text-white font-semibold hover:text-[#dfa05e] transition hidden md:block"
           }
         >
           Contact
