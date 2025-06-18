@@ -13,7 +13,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-transparent text-white font-medium py-6 z-50">
+    <nav className="absolute top-0 left-0 w-full bg-transparent text-white font-medium py-6 z-50">
       <div className="container mx-auto flex items-center justify-between px-4 md:px-15 relative z-50">
         {/* Brand */}
         <NavLink to="/" className="text-xl font-bold text-[#dfa05e] z-10">
