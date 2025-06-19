@@ -12,15 +12,6 @@ const projectCardsData = [
     liveDemoLink: "https://newspaper-template-demo.netlify.app/",
   },
   {
-    title: "Meal Planner App",
-    description:
-      "A web app for users to plan meals, view nutritional data, and generate shopping lists automatically.",
-    techStack: "React, Firebase, Tailwind CSS",
-    image: "/images/mealplanner.png", // or import
-    githubLink: "https://github.com/jordanjamesja/meal-planner",
-    liveDemoLink: "https://mealplanner.vercel.app/",
-  },
-  {
     title: "Sum Runner",
     description:
       "A kid-friendly math adventure game built with HTML, CSS, and JavaScript — designed to help young learners practice arithmetic through fun, progressive levels.",
@@ -28,6 +19,15 @@ const projectCardsData = [
     image: sumRunner,
     githubLink: "https://github.com/JordanJamesJA/Sum-Runner",
     liveDemoLink: "https://sumrunner.netlify.app/",
+  },
+  {
+    title: "Meal Planner App",
+    description:
+      "A web app for users to plan meals, view nutritional data, and generate shopping lists automatically.",
+    techStack: "React, Firebase, Tailwind CSS",
+    image: "/images/mealplanner.png", // or import
+    githubLink: "https://github.com/jordanjamesja/meal-planner",
+    liveDemoLink: "https://mealplanner.vercel.app/",
   },
 ];
 
