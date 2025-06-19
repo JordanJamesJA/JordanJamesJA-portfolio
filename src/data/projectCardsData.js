@@ -1,4 +1,5 @@
 import newsPaperImage from "../assets/newspaper-demo.png";
+import sumRunner from "../assets/sum-runner.png";
 
 const projectCardsData = [
   {
@@ -20,13 +21,13 @@ const projectCardsData = [
     liveDemoLink: "https://mealplanner.vercel.app/",
   },
   {
-    title: "Math Game",
+    title: "Sum Runner",
     description:
-      "A math quiz game built to help kids practice arithmetic with increasing difficulty levels.",
+      "A kid-friendly math adventure game built with HTML, CSS, and JavaScript — designed to help young learners practice arithmetic through fun, progressive levels.",
     techStack: "HTML, CSS, JavaScript",
-    image: "/images/mathgame.png",
-    githubLink: "https://github.com/jordanjamesja/math-game",
-    liveDemoLink: "https://jordanjamesja.github.io/math-game/",
+    image: sumRunner,
+    githubLink: "https://github.com/JordanJamesJA/Sum-Runner",
+    liveDemoLink: "https://sumrunner.netlify.app/",
   },
 ];
 
