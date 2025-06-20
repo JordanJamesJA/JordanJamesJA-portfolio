@@ -20,15 +20,6 @@ const projectCardsData = [
     githubLink: "https://github.com/JordanJamesJA/Sum-Runner",
     liveDemoLink: "https://sumrunner.netlify.app/",
   },
-  {
-    title: "Meal Planner App",
-    description:
-      "A web app for users to plan meals, view nutritional data, and generate shopping lists automatically.",
-    techStack: "React, Firebase, Tailwind CSS",
-    image: "/images/mealplanner.png", // or import
-    githubLink: "https://github.com/jordanjamesja/meal-planner",
-    liveDemoLink: "https://mealplanner.vercel.app/",
-  },
 ];
 
 export default projectCardsData;
