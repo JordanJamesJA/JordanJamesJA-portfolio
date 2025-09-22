@@ -20,9 +20,3 @@ I build web apps with React and JavaScript, focusing on clean code and performan
 - **Icons:** Lucide React, React Icons
 - **Routing:** React Router DOM
 - **Build Tool:** Vite
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-Explore! 🚀
