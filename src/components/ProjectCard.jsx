@@ -2,7 +2,7 @@ import { RiGithubFill, RiExternalLinkLine } from "react-icons/ri";
 
 const ProjectCard = ({ title, description, techStack, image, githubLink, liveDemoLink }) => {
   return (
-    <div className="bg-gradient-to-b from-slate-800 to-slate-900 rounded-xl shadow-lg p-4">
+    <div className="bg-gradient-to-b from-slate-800 to-slate-900 rounded-xl shadow-lg p-4 hover:scale-105 transition-transform duration-300">
       <img src={image} alt={title} className="rounded-lg w-full" />
       <h3 className="mt-4 font-semibold text-white text-lg">{title}</h3>
       <p className="text-gray-300 text-sm mt-2">{description}</p>
